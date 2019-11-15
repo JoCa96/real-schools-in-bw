@@ -12,7 +12,7 @@ function getSchoolName({city}) {
     } else if (ran < 0.65) {
         return `${schoolType[i2]} in ${city}`;
     } 
-    return `${prefix[i1]}${schoolType[i2]}`;
+    return `${prefix[i1]}${schoolType[i2]} ${city}`;
 }
 
 function getCity() {
